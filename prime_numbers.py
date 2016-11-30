@@ -5,12 +5,16 @@ def generate_prime(n):
     Genetates prime numbers from 0 to n
     """
 
+    if not isinstance(n, int):
+        return 'Pass numbers only'
+
+
     prime_numbers = []
 
     div = True
 
     if n < 0:
-        print "Please provide a positive number"
+        return "Provide a positive number"
     else:
         for i in range(2, n+1):
             div = True
