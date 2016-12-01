@@ -1,11 +1,12 @@
 import unittest
+import sys
+sys.path.append('../app')
 from prime_numbers import generate_prime
 
 class TestPrime(unittest.TestCase):
     """
     Tests that prime generator works correctly
     """
-
     def test_accepts_numbers_only(self):
         """
         The parameter given should be of type int
