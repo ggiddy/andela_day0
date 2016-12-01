@@ -7,12 +7,11 @@ def generate_prime(n):
     if not isinstance(n, int):
         return 'Pass numbers only'
 
-    prime_numbers = []
-    div = True
-
     if n < 0:
         return "Provide a positive number"
     else:
+        prime_numbers = []
+    
         for i in range(2, n+1):
             div = True
 
