@@ -1,0 +1,5 @@
+/.env/
+gitignore
+/.cache/
+/__pycache__/
+prime_numbers.pyc
